@@ -4,12 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-.raleway-font {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+.raleway-text-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 body {
     font-size: 16px;
@@ -25,7 +24,7 @@ body {
     display: flex;
 }
 .section-padding {
-    padding: 100px 0;
+    padding: 120px 0;
 }
 .text-center {  
     text-align: center;
@@ -37,7 +36,7 @@ body {
     background-color: #fff;
 }
 .section-title {
-    font-size: 38px;
+    font-size: 42px;
     font-weight: 800;
     color: #252432;
     margin-bottom: 30px;
@@ -49,20 +48,23 @@ a {
 .primary-btn {
     color: #fff;
     font-weight: 800;
-    font-size: 16px;
     text-transform: capitalize;
-    padding: 15px 35px;
-    border-radius: 10px;
+    padding: 12px 36px;
+    border-radius: 12px;
     background-color: #4E47FF;
     text-decoration: none;
+    transition: 0.3s;
+}
+
+.primary-btn:hover {
+    background-color: #2d6d9a;
+    
 }
 
 /* header starts */
 header {
     background-image: url(./img/hero-bg.png);
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: left bottom;
     height: 700px;
 }
 
@@ -76,13 +78,22 @@ header {
     align-items: center;
 }
 
+h3.logo {
+    font-size: 55px;
+    font-weight: 800;
+    color: #4E47FF;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+
 /* hero-area starts */
 .hero-area {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    min-height: calc(700px - 110px);
+    min-height: calc(700px - 138px);
 }
 
 .hero-content h2 {
@@ -90,6 +101,9 @@ header {
     color: #252432;
     font-size: 65px;
     margin-bottom: 35px;
+}
+.primary-btn.hero-btn {
+    padding: 16px 38px;
 }
 
 /* see-in-action-area starts */
@@ -117,6 +131,9 @@ header {
     background-color: rgba(78, 71, 255, .1);
     border-radius: 24px;
     text-align: center;
+    font-family: sans-serif;
+    line-height: 1.2;
+
 }
 
 .counter-content-list {
@@ -161,8 +178,8 @@ header {
 }
 
 .single-review h5 {
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin-top: 35px;
+    margin-bottom: 10px;
     color: #252432;
     font-size: 30px;
 }
@@ -187,7 +204,6 @@ header {
 .reviewer-name {
     color: #757575;
     font-size: 20px;
-    margin-bottom: 15px;
 }
 
 .review-date {
@@ -205,10 +221,11 @@ header {
 }
 
 .ready-to-focus-content * {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .ready-to-focus-content img {
+    margin-top: 35px;
     border-radius: 15px;
 }
 
@@ -261,7 +278,7 @@ header {
     font-weight: 800;
     font-size: 16px;
     text-transform: capitalize;
-    padding: 15px 35px;
+    padding: 18px 35px;
     border-radius: 10px;
     background-color: #4E47FF;
     text-decoration: none;
@@ -269,10 +286,12 @@ header {
 }
 
 /* footer starts */
-.footer-content .brand-logo {
-    width: 290px;
-    height: auto;
-    margin-bottom: 35px;
+.footer-area {
+    padding: 100px 0;
+}
+.footer-area h3.logo {
+    font-size: 75px;
+    margin-bottom: 10px;
 }
 .footer-content .footer-text {
     color: #8987A1;
