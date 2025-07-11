@@ -58,7 +58,8 @@ a {
 
 .primary-btn:hover {
     background-color: #2d6d9a;
-    
+    padding-left: 42px;
+    padding-right: 30px;
 }
 
 /* header starts */
@@ -104,6 +105,10 @@ h3.logo {
 }
 .primary-btn.hero-btn {
     padding: 16px 38px;
+}
+.primary-btn.hero-btn:hover {
+    padding-left: 42px;
+    padding-right: 33px;
 }
 
 /* see-in-action-area starts */
@@ -283,6 +288,10 @@ h3.logo {
     background-color: #4E47FF;
     text-decoration: none;
     cursor: pointer;
+}
+.primary-btn.form-btn:hover {
+    padding-left: 43px;
+    padding-right: 27px;
 }
 
 /* footer starts */
