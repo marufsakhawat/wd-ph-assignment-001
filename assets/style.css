@@ -264,7 +264,7 @@ h3.logo {
     color: #000;
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .get-in-touch-form input, textarea {
@@ -276,6 +276,7 @@ h3.logo {
     border-radius: 10px;
     color: #808080;
     font-size: 18px;
+    margin-bottom: 30px;
 }
 
 .primary-btn.form-btn {
